@@ -1,4 +1,5 @@
-package Java_Basics.src.main.java;
+import org.AnimalKingdom;
+import org.Diet;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +34,16 @@ public class Main {
 
 //        for(int x = 0; x < fruits.length; x++){}
 
+        AnimalKingdom lion = new AnimalKingdom(
+                Diet.CARNIVORE,
+                "Lion",
+                "Roar",
+                4,
+                2,
+                0,
+                30
+        );
 
+        System.out.println(lion);
     }
 }
